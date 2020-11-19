@@ -52,12 +52,12 @@ document.addEventListener('DOMContentLoaded', function() {
     el.onclick=function (){
         if (el.getAttribute("data-flag")=="false"){
             mySort("data-price");
-            el.dataset.flag = "false";
+            el.dataset.flag = "true";
             console.log(el.dataset.flag);
         }
         else{
             mySortDesc("data-price");
-            el.dataset.flag = "true";
+            el.dataset.flag = "false";
             console.log(el.dataset.flag);
         }
     }
@@ -66,12 +66,12 @@ document.addEventListener('DOMContentLoaded', function() {
     em.onclick=function (){
         if (em.getAttribute("data-flag")=="false"){
             mySort("data-age");
-            em.dataset.flag = "false";
+            em.dataset.flag = "true";
             console.log(em.dataset.flag);
         }
         else{
             mySortDesc("data-age");
-            em.dataset.flag = "true";
+            em.dataset.flag = "false";
             console.log(em.dataset.flag);
         }
     }
