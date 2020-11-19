@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cats Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" id="scrollTo">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><img src="style/image/header-logo.png" alt=""></div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Main</a>
+                    <a class="nav__link" href="#">Gallery</a>
+                    <a class="nav__link" href="#">News</a>
+                    <a class="nav__link" href="#">Profile</a>
+                </nav>
+                <div class="header__call">
+                <div class="call-number">+544 3490 00000</div>
+                <div class="call-description">Звони скорее!</div>
+            </div>
+        </div>
+    <div class="header__find"><h2>Найдено 349 котов</h2></div>
+        </div>
+    </header>
+<div class="page">
+    <div class="section">
+        <div class="container">
+            <div class="sort">
+                <div class="sort__title"><p>Сортировать по:</p></div>
+                <div class="sort__cost" id="price" data-flag="false"><a href="#">Цене</a><i class="fas fa-angle-down"></i></div>
+                <div class="sort__age" id="age" data-flag="false"><a href="#">Возрасту</a><i class="fas fa-angle-down"></i></div>
+            </div>
+
+            <div class="cards">
+                <!--            1 card-->
+                <div class="card" data-price="30" data-age="2">
+                    <div class="card__inner">
+                        <div class="card__discount"><p>-40%</p></div>
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_1.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>2 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>30 000 руб.</p></div>
+                        </div>
+                        <a class="card__but" href="#">Купить</a>
+                    </div>
+                </div>
+
+                <!--            2 card-->
+                <div class="card" data-price="40" data-age="3">
+                    <div class="card__inner">
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_2.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>3 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>40 000 руб.</p></div>
+                        </div>
+                        <a class="card__but-sales" href="#">Продано</a>
+                    </div>
+                    </div>
+
+                <!--            3 card-->
+                <div class="card" data-price="20" data-age="2">
+                    <div class="card__inner">
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_3.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>2 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>20 000 руб.</p></div>
+                        </div>
+                        <a class="card__but" href="#">Купить</a>
+                    </div>
+                </div>
+
+                <!--            4 card-->
+                <div class="card" data-price="25" data-age="2">
+                    <div class="card__inner">
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_4.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>2 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>25 000 руб.</p></div>
+                        </div>
+                        <a class="card__but" href="#">Купить</a>
+                    </div>
+                </div>
+
+                <!--            5 card-->
+                <div class="card" data-price="30" data-age="2">
+                    <div class="card__inner">
+                        <div class="card__discount"><p>-40%</p></div>
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_5.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>2 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>30 000 руб.</p></div>
+                        </div>
+                        <a class="card__but" href="#">Купить</a>
+                    </div>
+                </div>
+
+                <!--            6 card-->
+                <div class="card" data-price="10" data-age="2">
+                    <div class="card__inner">
+                        <div class="card__like"><a href="#"><i class="fas fa-heart"></i></a></div>
+                        <div class="card__img"><img src="style/image/card_6.png" alt="cat"></div>
+                        <div class="card__wrap">
+                            <div class="card__name"><h1>Кот полосатый</h1></div>
+                            <div class="card__description">
+                                <div class="description__color"><p>Коричневый окрас</p></div>
+                                <div class="description__age">
+                                    <div class="age__number"><p>2 мес.</p></div>
+                                    <div class="age__title"><p>Возраст</p></div>
+                                </div>
+                                <div class="description__paws">
+                                    <div class="paws__number"><p>4</p></div>
+                                    <div class="paws__title"><p>Кол-во лап</p></div>
+                                </div>
+                            </div>
+                            <div class="card__cost"><p>10 000 руб.</p></div>
+                        </div>
+                        <a class="card__but-sales" href="#">Продано</a>
+                    </div>
+                </div>
+            </div>
+            <div class="show_more_wrap"><a class="show_more" href="#">Показать еще 20</a></div>
+            <a class="upstairs" id="scroll" href="#" ;><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">
+                    <h1>Успей купить!</h1>
+                    <h2>Подпишись и успей словить все акции</h2>
+                </div>
+                <div class="footer__mailing">
+                    <div class="footer__form">
+                        <form id="form_id" action="#">
+                            <input id="email" type="email" placeholder="Email">
+                            <a href="#">Подписаться</a>
+                        </form>
+                    </div>
+                    <div class="footer__check">
+                        <input type="checkbox" class="checkbox" id="checkbox"><label for="checkbox">Подписаться на новости</label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
